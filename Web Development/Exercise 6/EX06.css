@@ -1,0 +1,14 @@
+/*Basic styling*/
+
+/* 
+    Ryan Patrick
+
+    2/17/23
+
+    <ISTE240 Exercise 5 – JavaScript Part 1 CSS
+*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+    background-image: url(background.png);
+}

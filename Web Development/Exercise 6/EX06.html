@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX06</title>
+    <link rel="stylesheet" href="EX06.css">
+    <script src="EX06.js"></script>
+</head>
+<body>
+    <!-- Ryan Patrick --> 
+
+    <!-- 2/17/23 --> 
+
+    <!--ISTE240 Exercise 6 – JavaScript Part 1 -->
+
+    <!--Exercise a-->
+    <div>
+		<h2>JavaScript Exercise 6a </h2> 
+		<p id="text" style=" position:relative; left:10px;">This style of this paragraph will change when you click the button below.</p>
+	</div>
+	<div>
+		<button id="styleMe" onclick="jsStyle()">Change Style</button>
+        <button id="styleMe" onclick="moveText()">Move The Text</button>
+	</div>
+
+    <hr>
+
+    <!--Exercise b-->
+    <div>
+        <h2>JavaScript Exercise 6b </h2> 
+	    <form id="regForm">
+		    First name: <input type="text" id="fname" value="Boo"><br>
+		    Last name: <input type="text" id="lname" value="Radley"><br>
+            I have a dog. (Check if you do) <input type="checkbox"  id="dog"><br>
+            Major: <input type="text" id="major" placeholder="Major"><br>
+		    <input type="button" onclick="howmany();" value="Count of inputs">
+	    </form>
+
+    </div>
+
+    <hr>
+
+    <!--Exercise c-->
+    <div id="colorChange">
+		<h2>JavaScript Exercise 6c </h2> 
+	
+        <form>
+            <select id="mySelect">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Yellow</option>
+                <option>Orange</option>
+                <option>Purple</option>
+            </select>
+            <input type="button" onclick="colorchanger()" value="Change Color">
+        </form>
+    </div>
+    <hr>
+
+    <!--Exercise d-->
+    <div>
+		<h2>JavaScript Exercise 6d </h2> 
+	</div>
+	<div>
+		<p onmouseover="overP();" onmouseout="outP();" id="rb">This sentence will turn red when you mouseover it.</p>
+	</div>
+
+    <hr>
+
+    <!--Exercise e-->
+    <div>
+		<h2>JavaScript Exercise 6e </h2> 
+	</div>
+	<form>
+		<input type="text" id="firstoperand" placeholder=First Operand><br>
+		<input type="text" id="secondoperand" placeholder="Second Operand"/><br>
+		<input type="button" onclick="divide()" value="Divide" />
+		<input type="button" onclick="multiply()" value="Multiply" />
+		<!--<p>The answer: <span id="result"></span></p>-->
+	</form>
+
+
+
+    
+</body>
+</html>

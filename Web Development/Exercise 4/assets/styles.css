@@ -1,0 +1,77 @@
+body{
+    background-color: #292929;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+    position: relative;
+    float: left;
+    margin-right: 10px;;
+    
+}
+
+.logo .picture{
+    height: 100px;
+}
+
+.navbar ul{
+    display: flex;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: gray solid;
+    list-style: none;
+    justify-content: space-around;
+    background-color:#e10c0e;;
+   
+}
+
+.vist-text{
+    display: flex;
+    position: relative;
+    color: gray;
+    justify-content: center;
+    font-style: italic;
+    top: 80px;
+}
+
+.dividing-line{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 75%;
+    top: 100px;
+}
+
+.form{
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+fieldset{
+    border: none;
+    color: gray;
+    position: relative;
+    top: 120px; 
+}
+
+fieldset ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+.radio-form{
+    border: #e10c0e solid;
+}
+
+.submit{
+    background:#e10c0e;
+	color:#292929;
+	border: 1px solid #eee;
+}
+
+
+
+

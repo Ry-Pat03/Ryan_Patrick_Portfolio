@@ -1,0 +1,30 @@
+		System Report - 02/23/23
+
+Device Information
+Hostname: 		localhost
+Domain: 		(none)
+
+Network Information
+IP Address: 		192.168.197.14
+Gateway: 		192.168.207.254
+Network Mask: 		255.255.240.0
+DNS1: 			129.21.3.17
+DNS2: 			129.21.4.18
+
+OS Information
+Operating System: 	Rocky Linux
+Operating Version: 	8.7
+Kernal Version: 	4.18.0-425.10.1.el8_7.x86_64
+
+Storage Information
+Hard Drive Capacity: 	28G
+Avaliable Storage: 	22G
+
+CPU Information
+CPU Model: 		Intel(R) Xeon(R) Gold
+Number of Processors: 	2
+Number of Cores:	1
+
+Memory Information
+Total RAM: 		3.6Gi
+Available RAM:		1.7Gi

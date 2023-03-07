@@ -1,0 +1,94 @@
+body{
+    position: relative;
+}
+
+/* Styling to make the top nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: black solid;
+}
+
+/* Styling to make flower sidebar */
+.sidebar{
+    display: flex;
+    height: 100vh;
+    width:100px;
+    background-image: url("media/side.jpg");
+    
+}
+
+/* Stlying the gird of flowers */
+.flower_grid{
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: 150px;
+    display: grid;
+    grid-template-columns:250px 250px;
+    grid-template-rows: 250px 250px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+/* Styling for the flower boxes */
+.flower_box{
+    position: relative;
+    background-color:rgb(60, 102, 60);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/* Styling for hovering on box */
+.flower_box:hover{
+    background-color: purple;
+    cursor:pointer;
+}
+
+/* Styling for flower text */
+.flower{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: rgb(181, 109, 248);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Styling for the  */
+.symbol{
+    position: absolute;
+    font-size: 100px;
+    color: yellowgreen;
+    text-shadow: 3px 3px yellow ;
+    top: 25%;
+    left:10%;
+}
+
+/* MEDIA QUERIES */
+
+/* Change layout if less then 600px */
+@media only screen and (max-width:600px){
+    .flower_grid{
+        grid-template-columns:250px;
+        grid-template-rows: 250px 250px 250px 250px;
+    }
+    
+}
+
+/* Remove sidebar if less then 500px */
+@media only screen and (max-width:500px){
+    .sidebar{
+        display: none;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Exercise 04</title>
+</head>
+<body>
+    <!--Conatiner for logo-->
+    <div class="logo">
+        <img class="picture"  src="assets/media/City-of-Williamsport.png" alt="City-of-Williamsport">
+    </div>
+
+    <!--Conatiner for nav-->
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Entertainment</li>
+            <li>Nature</li>
+            <li>Fine Dining</li>
+            <li>Feedback</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!--Container for text-->
+    <div class="vist-text">
+        <h2>
+            Please tell us about your vist:
+        </h2>
+    </div>
+
+    <!--hr tag to sperate text and the forms -->
+    <hr class="dividing-line">
+
+    <!--form and fieldset tags-->
+    <div class="form">
+        <form action="">
+            <fieldset>
+                <ul>
+                    <li>
+                        <label class="number-form" for="numberVisited">How many in your group? </label>
+                        <input class="number-form" name="num" type="number" id="numberVisited">
+                    </li>
+
+                    <li>
+                        <label class="date-form" for="dateVisited">When did you visit? </label>
+                        <input class="date-form" name="dateVisited" type="date" id="dateVisited">
+                    </li>
+
+                    <li class="radio-form">
+                        <legend>Favorite Place Visited?</legend>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="LittleLeague">
+                            <label for="LittleLeague"> Little League</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="LittleLeagueM">
+                            <label for="LittleLeagueM"> Little League Museum</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="CAC">
+                            <label for="CAC"> Community Arts Center</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="Hiawatha">
+                            <label for="Hiawatha"> Hiawatha Riverboat</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="PineCreek">
+                            <label for="PineCreek"> Pine Creek Rail Trails</label>
+                        </div>
+                       
+                        <div>
+                            <input type="radio" name="favVisited" id="Brickyard">
+                            <label for="Brickyard"> The Brickyard Reasturant and Ale House</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="favVisited" id="Bullfrog">
+                            <label for="Bullfrog"> Bullfrog Brewery</label>
+                        </div>
+                        
+                    </li>
+
+                    <li>
+                        <label for="rating">How would you rate your trip on a scale from 1 to 10?</label>
+                    </li>
+                    <li>
+                        0
+                        <input type="range" min="1" max="10" value="5" class="slider" id="rating" name="rating">
+                        10
+                    </li>
+
+                    <li>
+                        <input type="submit" class="submit">
+                    </li>
+                    
+                </ul>
+                
+                
+            </fieldset>
+        
+        </form>
+    </div>
+    
+    
+
+
+
+    
+</body>
+</html>

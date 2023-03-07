@@ -1,0 +1,81 @@
+/* General body styling */
+body{
+    display: block;
+    background-color: #31CCFF;
+    background-image: url("media/Background.png");
+    background-size: auto;
+    background-repeat: repeat;
+    
+    color: rgb(16, 16, 16);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* General div styling */
+div{
+    padding-left: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+/* Header styling */
+h1{
+    border-style: solid;
+    border-color: #244B5C;
+    border-width: .1em;
+    text-align: center;
+    text-shadow: 2px 4px 4px #244B5C;
+}
+
+/* Imaging styling with boarder and shadow */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #244B5C solid .25em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px #244B5C;
+}
+
+/* Very basic email styling */
+.email{
+    text-align: center;
+}
+
+/* Portfolio styling */
+h2{
+    font-weight: bold;
+}
+
+/* Sub portfolio styling */
+h3{
+    padding-top: 1em;
+    font-style: italic;
+}
+
+/* Spacing for porfolio lists */
+ul, li{
+    padding-left: 1.5em;
+    padding-bottom: .5em;
+    color: rgb(28, 28, 28);
+    margin: .25rem;
+}
+
+/* Unvisited link */
+a:link {
+    color: red;
+}
+  
+/* Visited link */
+a:visited {
+    color: rgb(45, 10, 200);
+}
+  
+/* Hover link */
+a:hover {
+    color: hotpink;
+}
+  
+/* Selected link */
+a:active {
+    color: green;
+}
