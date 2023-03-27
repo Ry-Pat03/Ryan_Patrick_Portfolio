@@ -70,6 +70,7 @@ def ipParser(ips):
 	num = 0
 
 	#Create the IP pattern we're looking for with re
+	#Source for pattern: https://www.geeksforgeeks.org/extract-ip-address-from-file-using-python/
 	pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 
 	
